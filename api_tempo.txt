@@ -6,4 +6,3 @@ https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(
 
 http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png
 
-340938cc2eed896f0785a5c3fdb11c13
