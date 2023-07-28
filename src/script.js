@@ -22,7 +22,7 @@ button.addEventListener('click', () => {
 });
 function getDataApi() {
     return __awaiter(this, void 0, void 0, function* () {
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(input.value)}&units=metric&appid=340938cc2eed896f0785a5c3fdb11c13`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(input.value)}&units=metric&appid=SEUTOKEN`;
         try {
             const response = yield fetch(url);
             const data = yield response.json();
