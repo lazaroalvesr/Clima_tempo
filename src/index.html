@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo Online</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="shortcut icon" href="./img/Logo_novo.png" type="image/x-icon">
+</head>
+
+<body class="bg-gray-300 flex">
+    <main class="m-auto inline-block">
+        <h1 class="mt-24 text-3xl uppercase">Previsão do Tempo</h1>
+        <header class="ml-4 md:ml-0 flex items-center  m-auto mt-20 px-3">
+            <input class="md:py-0 border-2 border-black rounded-md w-[200px] px-2 py-1.5 outline-none" type="text" />
+            <button class=" pl-2"><img class=" w-8" src="./img/lupa.png" alt=""></i></button>
+        </header>
+        <div class="content mt-4 ml-8 md:ml-3">
+            <section>
+                <h2 id="place"></h2>
+                <span id="degrees"></span>
+                <br />
+                <span id="wind"></span>
+            </section>
+            <img class="clima shadow-md rounded-md  ml-8 md:ml-5" src="" alt="Clima" />
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
