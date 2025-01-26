@@ -19,7 +19,7 @@
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/SEU_USUARIO/Clima_tempo.git
+    git clone https://github.com/lazaroalvesr/Clima_tempo
     ```
 
 2. Navegue até o diretório do projeto:
